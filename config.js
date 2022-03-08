@@ -11,19 +11,19 @@ module.exports = {
     // Default values for frontmatter data.
     // If you want to add custom data, add them below.
     frontmatter: {
-        title: "💊MDMT💊 Markdown Document Template #MDMTjs",
+        title: "KanikamaGI",
         description:
-            "MDMT is a deadsimple document site generator, powered by Next.js and MDX. You can easily create documents with Markdown.",
+            "KanikamaGI is an asset providing lightmaps at runtime in VRChat, powered by UdonSharp.",
         color: "#00DDFF"
     },
 
     // Data for <meta> tags and PWA.
     meta: {
-        name: "💊MDMT💊 Markdown Document Template",
-        shortName: "MDMT",
-        url: "https://amagi.dev/MDMT/",
+        name: "KanikamaGI",
+        shortName: "Kanikama",
+        url: "https://shivaduke28.github.io/kanikama-docs/",
         image: "/static/images/ogimage.png",
-        twitter: "@amagitakayosi",
+        twitter: "@shiva_duke28",
         themeColor: "#00DDFF",
         backgroundColor: "#000000"
     },
@@ -79,10 +79,10 @@ module.exports = {
     // Header links settings.
     // Please provide settings for all supported languages.
     header: {
-        en: [["GitHub", "https://github.com/fand/mdmt"]],
+        en: [["GitHub", "https://github.com/shivaduke28/kanikama"]],
         ja: [
-            ["GitHub", "https://github.com/fand/mdmt"],
-            ["About Me", "https://twitter.com/amagitakayosi"]
+            ["GitHub", "https://github.com/shivaduke28/kanikama"],
+            ["About Me", "https://twitter.com/shiva_duke28"]
         ]
     }
 };
