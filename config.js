@@ -32,24 +32,37 @@ module.exports = {
     // Please provide settings for all supported languages.
     sidebar: {
         en: [
-            ["Home", "/"],
-            ["Getting Started", "/getting-started"],
+            ["About", "/"],
             [
-                "Features",
+                "Getting Started",
                 null,
                 [
-                    ["MDX", "/features/mdx"],
-                    ["I18n", "/features/i18n"],
-                    ["PWA", "/features/pwa"]
+                    ["Instllation", "/getting-started/installation"],
+                    ["Hello world", "/getting-started/hello-world"]
                 ]
             ],
             [
-                "Customize",
-                "/customize",
-                [["Config", "/customize/config"], ["Theme", "/customize/theme"]]
+                "System",
+                null,
+                [
+                    ["How it works", "/system/how-it-works"],
+                    ["How monitor works", "/system/how-monitor-works"],
+                    ["Directional mode", "/system/directional-mode"],
+                    ["Composition mode", "/system/composition-mode"],
+                    ["Bakery", "/system/bakery"]
+                ]
             ],
-            ["How It Works", "/how-it-works"],
-            ["FAQ", "/faq"]
+            [
+                "Runtime",
+                null,
+                [
+                    ["KanikamaSceneDescriptor", "/runtime/kanikama-scene-descriptor"],
+                    ["KanikamaUnityLight", "/runtime/kanikama-unity-light"],
+                    ["KanikamaUnitySkyLight", "/runtime/kanikama-unity-sky-light"],
+                    ["KanikamaUnityRenderer", "/runtime/kanikama-unity-renderer"],
+                    ["KanikamaMonitorController", "/runtime/kanikama-monitor-controller"],
+                ]
+            ],
         ],
         ja: [
             ["ホーム", "/ja"],

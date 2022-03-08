@@ -3,34 +3,43 @@
   <img alt="logo" src="/static/images/logo.png" width="240"/>
   <br/>
   <br/>
-  <i>💊Markdown Document Template💊</i>
+  <i>🦀💡 KanikamaGI 💡🦀</i>
   <br/>
   <br/>
 </div>
 
-MDMT is yet-another document site generator.
-It aims to make writing pages and customizing themes as easy as possible.
+KanikamaGI is an asset to update lightmaps at runtime in VRChat, powered by [UdonSharp](https://github.com/vrchat-community/UdonSharp).
 
 ## Features
 
-- Write pages with Markdown!
-- Built-in multi language support!
-- PWA supported!
+- Updates lightmaps every frame accurately.
+- Works with regular static lightmaps.
+- A Standard shader with Kanikama functionality.
+- Supports Directional lightmaps and Directional Specular.
+- Supports Bakery.
 
-## Not Supported
+### Light Sources
 
-- No CLI command. `npm` command does everything I want ٩(ˊᗜˋ*)و
-- No theme provided via npm
+- Light components (Baked/Mixed)
+- Renderers with emissive materials
+- Ambient lights
+- Monitors (texture lights with movies)
 
-## Why?
+## Comparison with Realtime GI
 
-I tried soooooo many existing solutions, but...
+### Advantages
 
-- Too complicated
-  - Docusaurus
-  - VuePress
-- Too simple
-  - Next.js
-  - Nuxt.js
+- No frame delay in updating GI.
+- Less CPU load.
 
-So I created another one 🐹←btw I love this emoji
+### Disadvantages
+
+- The position and angle of light sources cannot be changed.
+- Can not update light probes.
+- Need to bake lightmaps per light sources, that increases Scene capacity and VRAM load.
+
+## When should I use it?
+
+When there are a lot of flickering of light sources, such as screen showing VJ’s image in club worlds, RealtimeGI will not be able to update GI without delay. Also, if your world may have a lot of players and you can’t handle the CPU load of RealtimeGI, then KanikamaGI may be an option.
+
+Notice that it will increase the number of textures and the cost of drawing the static objects that GI will reflect.
