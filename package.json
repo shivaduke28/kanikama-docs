@@ -72,16 +72,16 @@
   "license": "MIT",
   "repository": "https://github.com/fand/mdmt",
   "scripts": {
-    "build": "NODE_ENV=production run-s clean build:manifest build:build build:export build:nojekyll build:preload build:sw",
+    "build": "cross-env NODE_ENV=production run-s clean build:manifest build:build build:export build:nojekyll build:preload build:sw",
     "build:build": "next build",
     "build:export": "next export -o docs",
     "build:manifest": "node scripts/generate-manifest.js",
-    "build:nojekyll": "touch docs/.nojekyll",
+    "build:nojekyll": "type nul > docs/.nojekyll",
     "build:preload": "node scripts/copy-preload.js",
     "build:sw": "workbox generateSW scripts/workbox-config.js",
-    "clean": "rm -rf .next docs",
+    "clean": "rmdir /S /Q .next docs",
     "lint": "eslint --ext .js,.ts,.tsx pages lib components scripts",
     "start": "next",
-    "test": "NODE_ENV=production babel-node test/index.js"
+    "test": "cross-env NODE_ENV=production babel-node test/index.js"
   }
 }
