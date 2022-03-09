@@ -69,7 +69,8 @@ module.exports = {
                 null,
                 [
                     ["KanikamaMapProvider", "/udon/kanikama-map-provider"],
-                    ["KanikamaArrayMapProvider", "/udon/kanikama-array-map-provider"],
+                    ["KanikamaMapArrayProvider", "/udon/kanikama-map-array-provider"],
+                    ["KanikamaColorCollector", "/udon/kanikama-color-collector"],
                     ["KanikamaCamera", "/udon/kanikama-camera"],
                     ["KanikamaRealtimeSceneLight", "/udon/kanikama-realtime-scene-light"],
                     ["KanikamaRealtimeCameraLight", "/udon/kanikama-realtime-camera-light"],
@@ -77,27 +78,50 @@ module.exports = {
             ],
         ],
         ja: [
-            ["ホーム", "/ja"],
-            ["使い方", "/ja/getting-started"],
+            ["About", "/ja"],
             [
-                "機能",
+                "Getting Started",
                 null,
                 [
-                    ["MDX", "/ja/features/mdx"],
-                    ["多言語対応", "/ja/features/i18n"],
-                    ["PWA", "/ja/features/pwa"]
+                    ["Instllation", "/ja/getting-started/installation"],
+                    ["Hello world", "/ja/getting-started/hello-world"]
                 ]
             ],
             [
-                "カスタマイズ",
-                "/ja/customize",
+                "System",
+                null,
                 [
-                    ["設定ファイル", "/ja/customize/config"],
-                    ["テーマ", "/ja/customize/theme"]
+                    ["How it works", "/ja/system/how-it-works"],
+                    ["How monitor works", "//jasystem/how-monitor-works"],
+                    ["Directional mode", "/ja/system/directional-mode"],
+                    ["Composition mode", "/ja/system/composition-mode"],
+                    ["Bakery", "/ja/system/bakery"]
                 ]
             ],
-            ["仕組み", "/ja/how-it-works"],
-            ["よくある質問", "/ja/faq"]
+            [
+                "Runtime",
+                null,
+                [
+                    ["KanikamaSceneDescriptor", "/ja/runtime/kanikama-scene-descriptor"],
+                    ["KanikamaUnityLight", "/ja/runtime/kanikama-unity-light"],
+                    ["KanikamaUnitySkyLight", "/ja/runtime/kanikama-unity-sky-light"],
+                    ["KanikamaUnityRenderer", "/ja/runtime/kanikama-unity-renderer"],
+                    ["KanikamaMonitorController", "/ja/runtime/kanikama-monitor-controller"],
+                    ["KanikamaMonitorQuad", "/ja/runtime/kanikama-monitor-quad"],
+                ]
+            ],
+            [
+                "Udon",
+                null,
+                [
+                    ["KanikamaMapProvider", "/ja/udon/kanikama-map-provider"],
+                    ["KanikamaMapArrayProvider", "/ja/udon/kanikama-map-array-provider"],
+                    ["KanikamaColorCollector", "/ja/udon/kanikama-color-collector"],
+                    ["KanikamaCamera", "/ja/udon/kanikama-camera"],
+                    ["KanikamaRealtimeSceneLight", "/ja/udon/kanikama-realtime-scene-light"],
+                    ["KanikamaRealtimeCameraLight", "/ja/udon/kanikama-realtime-camera-light"],
+                ]
+            ],
         ]
     },
 
