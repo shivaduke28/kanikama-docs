@@ -22,7 +22,7 @@ module.exports = {
         name: "KanikamaGI",
         shortName: "Kanikama",
         url: "https://shivaduke28.github.io/kanikama-docs/",
-        image: "/static/images/ogimage.png",
+        image: "/static/images/kanikama_logo.png",
         twitter: "@shiva_duke28",
         themeColor: "#00DDFF",
         backgroundColor: "#000000"
