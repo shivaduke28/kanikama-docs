@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
     /* Set global font */
     * {
         font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-        line-height: 1.8em;
+        line-height: 1.7em;
     }
 `;
 

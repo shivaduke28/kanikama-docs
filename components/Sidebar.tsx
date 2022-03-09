@@ -12,7 +12,7 @@ import constants from "./constants";
 const Nav = styled.nav`
     width: 100%;
     height: 100%;
-    padding: 10px 20px 100px;
+    padding: 10px 10px 100px 20px;
     background: rgba(10, 10, 10, 0.8);
     border-right: 1px solid gray;
 
@@ -29,13 +29,13 @@ const Nav = styled.nav`
     }
     li,
     li > * {
-        line-height: 2.5em;
+        line-height: 2.4em;
         &.active {
             position: relative;
             text-decoration: none;
-            font-weight: bold;
+            // font-weight: bold;
             font-style: italic;
-            color: white;
+            color: #ff7f50;
         }
     }
     li a {
@@ -148,7 +148,7 @@ const Sidebar = (): React.ReactElement => {
                         <Img
                             className="logo"
                             src="/static/images/kanikama_logo_white.png"
-                            alt="MDMT header"
+                            alt="Kanikama header"
                         />
                     </Link>
                 </div>

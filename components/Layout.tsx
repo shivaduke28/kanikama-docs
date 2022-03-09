@@ -21,6 +21,7 @@ const Wrapper = styled.div`
     overflow: visible;
     display: flex;
 
+
     transition: left 0.3s;
     @media (max-width: ${constants.mobile}px) {
         width: auto;
@@ -52,7 +53,7 @@ const MainWrapper = styled.div`
     width: 100%;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     padding-top: 60px; /* Header height + padding */
     display: flex;
     flex-direction: column;
@@ -61,11 +62,15 @@ const MainWrapper = styled.div`
 const Main = styled.main`
     flex: 1;
     width: 100%;
-    max-width: 720px;
+    max-width: 800px;
     margin: 0 auto;
 
     img {
         max-width: 100%;
+    }
+
+    table {
+        border:solid 1px;
     }
 `;
 

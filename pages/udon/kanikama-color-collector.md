@@ -1,0 +1,5 @@
+---
+title: KanikamaColorCollector
+---
+
+# KanikamaColorCollector

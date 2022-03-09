@@ -13,15 +13,29 @@ Import [Bakery](https://geom.io/bakery/wiki/) to your Unity project and specify 
 ## Bakery components
 For each Bakery's Light component, attach the corresponding Kanikama component to it, and specify it in the Inspector window of the KanikamaSceneDescriptor component.
 
-|Bakery|Kanikama|Light Source| Note|
-|-|-|-|-|
-|BakeryPointLight|KanikamaBakeryPointLight|Light||
-|BakeryDirectLight| KanikamaBakeryDirectLight|Light||
-|BakerySkyLight|KanikamaBakerySkyLight|Light|Light should be disabled in usual|
-|BakeryLightMesh (with Area Light)|KanikamaBakeryAreaLight|Light||
-|BakeryLightMesh (with Renderer)|KanikamaBakeryLightMesh|Renderer| Do not use Bakery/Light shader. Shaders must satify the conditions of Emissive Materials for the KanikamaUnityRenderer component. Multiple material slots are not supported.|
-| - |KanikamaUnityRenderer|Renderer| For emissive renderers (not LightMesh), use the KanikamaUnityRenderer component.|
 
+`BakeryPointLight`
+- Unity Component: `Light` (Point)
+- Kanikama Component: `KanikamaBakeryPointLight`
+
+`BakeryDirectLight`
+- Unity Component: `Light` (Directional)
+- Kanikama Component: `KanikamaBakeryDirectLight`
+
+`BakerySkyLight`
+- Unity Component: `Light` (should be disabled in usual)
+- Kanikama Component: `KanikamaBakerySkyLight`
+
+`BakeryLightMesh` (with Area Light)
+- Unity Component: `Light` (Area)
+- KanikamaComponent
+
+`BakeryLightMesh` (with Renderer)
+- Unity Component: `Renderer`
+    - Do not use `Bakery/Light` Shader. Shaders must satify the conditions of Emissive Materials for the `KanikamaUnityRenderer` component.
+    - Multiple material slots are not supported.
+- KanikamaComponent: `KanikamaBakeryLightMesh`
+    - For emissive renderers (not LightMesh), use `KanikamaUnityRenderer`.
 
 [![Image from Gyazo](https://i.gyazo.com/11f1e3bba3db4c5c3a885be61f0d645c.png)](https://gyazo.com/11f1e3bba3db4c5c3a885be61f0d645c)
 

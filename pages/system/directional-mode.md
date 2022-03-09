@@ -1,5 +1,5 @@
 ---
-layout: Directional mode
+title: Directional mode
 ---
 
 # Directional Mode

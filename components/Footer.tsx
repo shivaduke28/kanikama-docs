@@ -11,10 +11,14 @@ const FooterEl = styled.footer`
 
 const Hr = styled.hr`
     margin: 60px auto 0;
+    background-color: gray;
+    // color: gray;
+    border: 0.5px solid gray;
 `;
 
 const FooterText = styled.div`
-    margin: 30px auto;
+    text-align: right;
+    margin: 20px auto;
 `;
 
 const Footer = (): React.ReactElement => (
@@ -23,8 +27,6 @@ const Footer = (): React.ReactElement => (
         <FooterText>
             {"Made with "}
             <Link href="https://github.com/fand/mdmt">MDMT</Link>
-            {" by "}
-            <Link href="https://twitter.com/amagitakayosi">@amagitakayosi</Link>
         </FooterText>
     </FooterEl>
 );

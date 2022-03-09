@@ -61,6 +61,18 @@ module.exports = {
                     ["KanikamaUnitySkyLight", "/runtime/kanikama-unity-sky-light"],
                     ["KanikamaUnityRenderer", "/runtime/kanikama-unity-renderer"],
                     ["KanikamaMonitorController", "/runtime/kanikama-monitor-controller"],
+                    ["KanikamaMonitorQuad", "/runtime/kanikama-monitor-quad"],
+                ]
+            ],
+            [
+                "Udon",
+                null,
+                [
+                    ["KanikamaMapProvider", "/udon/kanikama-map-provider"],
+                    ["KanikamaArrayMapProvider", "/udon/kanikama-array-map-provider"],
+                    ["KanikamaCamera", "/udon/kanikama-camera"],
+                    ["KanikamaRealtimeSceneLight", "/udon/kanikama-realtime-scene-light"],
+                    ["KanikamaRealtimeCameraLight", "/udon/kanikama-realtime-camera-light"],
                 ]
             ],
         ],
