@@ -14,7 +14,7 @@ module.exports = {
         title: "KanikamaGI",
         description:
             "KanikamaGI is an asset providing lightmaps at runtime in VRChat, powered by UdonSharp.",
-        color: "#00DDFF"
+        color: "#363227"
     },
 
     // Data for <meta> tags and PWA.
@@ -24,7 +24,7 @@ module.exports = {
         url: "https://shivaduke28.github.io/kanikama-docs/",
         image: "/static/images/kanikama_logo.png",
         twitter: "@shiva_duke28",
-        themeColor: "#00DDFF",
+        themeColor: "#363227",
         backgroundColor: "#000000"
     },
 
