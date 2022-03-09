@@ -1,14 +1,14 @@
 <div align="center">
   <br/>  
-  <img alt="logo" src="/static/images/logo.png" width="240"/>
+  <img alt="logo" src="/static/images/kanikama_logo.png" width="420"/>
   <br/>
   <br/>
-  <i>🦀💡 KanikamaGI 💡🦀</i>
+  🦀💡 KanikamaGI 💡🦀
   <br/>
   <br/>
 </div>
 
-KanikamaGI is an asset to update lightmaps at runtime in VRChat, powered by [UdonSharp](https://github.com/vrchat-community/UdonSharp).
+KanikamaGI is an asset for VRChat to update lightmaps at runtime, powered by [UdonSharp](https://github.com/vrchat-community/UdonSharp).
 
 ## Features
 

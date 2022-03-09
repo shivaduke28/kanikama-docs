@@ -98,8 +98,8 @@ const Header = (): React.ReactElement => {
             <Logo visible={isLogoVisible}>
                 <Link href={getPathForLang(lang, "/")}>
                     <Img
-                        src="/static/images/logo_white.png"
-                        alt="MDMT logo"
+                        src="/static/images/kanikama_logo_white.png"
+                        alt="KanikamaGI logo"
                         height="48"
                     />
                 </Link>

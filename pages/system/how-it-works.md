@@ -16,7 +16,7 @@ The following image is the baked lightmap.
 Set the color of the two lights to white `(1,1,1)` and the brightness to `1` and bake the lightmap with only one lit for each.
 
 <div>
-<img src='https://i.gyazo.com/066db24a7ebf787faee1fcbe04c44199.png' /> <img src='https://i.gyazo.com/18b86710e1e00037ed573176f530dd15.png' />
+<img src='https://i.gyazo.com/066db24a7ebf787faee1fcbe04c44199.png' width="420" /> <img src='https://i.gyazo.com/18b86710e1e00037ed573176f530dd15.png' width="420" />
 </div>
  
 Two lightmaps are generated from the two lights.

@@ -10,13 +10,14 @@ const BG = styled.div<{ color: string }>`
     left: 0;
     top: 0;
 
+    background: rgba(225, 200, 130, 0.8);
     /* animation */
-    background: repeating-linear-gradient(
-        130deg,
-        ${(p) => adjustHue(90, p.color)},
-        ${(p) => p.color},
-        ${(p) => lighten(0.2, adjustHue(-60, p.color))}
-    );
+    // background: repeating-linear-gradient(
+    //     130deg,
+    //     ${(p) => adjustHue(90, p.color)},
+    //     ${(p) => p.color},
+    //     ${(p) => lighten(0.2, adjustHue(-60, p.color))}
+    // );
     background-size: 200% 200%;
     animation: bg 12s ease infinite;
     @keyframes bg {

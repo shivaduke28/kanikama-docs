@@ -12,8 +12,8 @@ import constants from "./constants";
 const Nav = styled.nav`
     width: 100%;
     height: 100%;
-    padding: 10px 30px 100px;
-    background: rgba(10, 10, 10, 0.6);
+    padding: 10px 20px 100px;
+    background: rgba(10, 10, 10, 0.8);
     border-right: 1px solid gray;
 
     overflow: auto;
@@ -102,7 +102,7 @@ const renderSidebarItems = (
     indent: number
 ): React.ReactElement => {
     return (
-        <ul style={{ textIndent: indent * 30 }}>
+        <ul style={{ textIndent: indent * 20 }}>
             {items.map(([label, content, list]) => {
                 if (typeof list === "undefined") {
                     // Simple item
@@ -147,22 +147,22 @@ const Sidebar = (): React.ReactElement => {
                     <Link href={getPathForLang(lang, "/")}>
                         <Img
                             className="logo"
-                            src="/static/images/logo_white.png"
+                            src="/static/images/kanikama_logo_white.png"
                             alt="MDMT header"
                         />
                     </Link>
                 </div>
-                <div
+                {/* <div
                     className="twitter"
                     onClick={() => dispatch({ type: "hideMenu" })}
                 >
-                    <Link href="https://twitter.com/search?f=tweets&q=%23MDMTjs&src=typd">
+                    <Link href="https://twitter.com/search?f=tweets&q=%23KanikamaGI&src=typd">
                         <Img
                             alt="hashtag #MDMTjs"
                             src="/static/images/hashtag.webp"
                         />
                     </Link>
-                </div>
+                </div> */}
             </Header>
 
             {renderSidebarItems(sidebarItems, router.pathname, 0)}

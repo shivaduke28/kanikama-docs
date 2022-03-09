@@ -21,7 +21,9 @@ const Footer = (): React.ReactElement => (
     <FooterEl>
         <Hr />
         <FooterText>
-            {"MDMT by "}
+            {"Made with "}
+            <Link href="https://github.com/fand/mdmt">MDMT</Link>
+            {" by "}
             <Link href="https://twitter.com/amagitakayosi">@amagitakayosi</Link>
         </FooterText>
     </FooterEl>
