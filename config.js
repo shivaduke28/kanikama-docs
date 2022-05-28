@@ -49,6 +49,7 @@ module.exports = {
                     ["How monitor works", "/system/how-monitor-works"],
                     ["Directional mode", "/system/directional-mode"],
                     ["Composition mode", "/system/composition-mode"],
+                    ["Lightmap packing", "/system/lightmap-packing"],
                     ["Bakery", "/system/bakery"]
                 ]
             ],
