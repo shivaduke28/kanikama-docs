@@ -99,6 +99,19 @@ export const Link = (props: LinkProps): React.ReactElement => {
         );
     }
 
+    // Return normal anchor if the URL is footnote
+    if (props.href.match(/^#fn/)) {
+        return (
+            <a
+                key={props.href}
+                href={props.href}
+            >
+                {props.children}
+            </a>
+        );
+    }
+
+
     const router = useRouter();
     const newProps = {
         children: props.children,
