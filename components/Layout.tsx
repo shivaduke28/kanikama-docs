@@ -62,15 +62,17 @@ const MainWrapper = styled.div`
 const Main = styled.main`
     flex: 1;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 
     img {
         max-width: 100%;
     }
-
-    table {
-        border:solid 1px;
+    th,td {
+        border: solid 1px;
+        white-space: nowrap;
+        text-align: center;
+        padding: 0px 20px;
     }
 `;
 

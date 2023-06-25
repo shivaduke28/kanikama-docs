@@ -27,6 +27,7 @@ const Footer = (): React.ReactElement => (
         <FooterText>
             {"Made with "}
             <Link href="https://github.com/fand/mdmt">MDMT</Link>
+            {" by AMAGI"}
         </FooterText>
     </FooterEl>
 );
