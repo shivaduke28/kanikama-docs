@@ -41,5 +41,3 @@ To use in VRChat, Kanikama also requires [VRChat Creator Companion](https://vcc.
 Open the Package Manager window from `Window > Package Manager`, and select the **In Project** category. You can import Samples.
 
 <a href="https://gyazo.com/5c5f1c04a167780abfb61227dbaf96a1"><img src="https://i.gyazo.com/5c5f1c04a167780abfb61227dbaf96a1.jpg" alt="Image from Gyazo" width="749"/></a>
-
-<a href="https://gyazo.com/31bf432d7bea469368d16db2c3a45d01"><img src="https://i.gyazo.com/31bf432d7bea469368d16db2c3a45d01.gif" alt="Image from Gyazo" width="678"/></a>
