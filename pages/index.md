@@ -20,6 +20,10 @@ KanikamaGI is a library to update lightmaps at runtime in Unity based on the Pre
 - [Bakery](https://geom.io/bakery/wiki/index.php?title=Manual)
 - [UdonSharp](https://udonsharp.docs.vrchat.com/) for VRChat
 
+### Discord Server
+
+- [KanikamaGI Discord](https://discord.gg/ze7dq8nGhW)
+
 [^a]: P. Sloan, J. Kautz, J. Snyder, Precomputed Radiance Transfer for RealTime Rendering in Dynamic, Low-Frequency Lighting Environments. ACM Transactions on Graphics, v 21, n 3, 2002, p 527-536.
 [^2]: Shader codes for directional specular in Kanikama is borrowed from Bakery. Thank you Mr F.
 [^3]: Eric Heitz, Jonathan Dupuy, Stephen Hill and David Neubelt. Real-Time Polygonal-Light Shading with Linearly Transformed Cosines. ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH 2016) 35(4), 2016. Project page: https://eheitzresearch.wordpress.com/415-2/
