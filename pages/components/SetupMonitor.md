@@ -30,7 +30,7 @@ For Bakery, set the following Prefab for **bakeTargetPrefab** field.
 
 ## KanikamaRuntimeMonitorCamera
 
-This is a runtime component to capture a monitor and get averaged colors. This component is attached in `KanikamaMonitorGroup.prefab`.
+This is a runtime component to capture a monitor by Camera and get averaged colors. This component is attached in `KanikamaMonitorGroup.prefab`. Averaged colors are given by choosing appropriate mipmap levels. For example, if you use 2x2 grids, the mipmap level should be 7. To work this correctly, the render target of the Camera needs to have the resolution 256 x 256.
 
 |fields|type|note|
 |-|-|-|
@@ -39,8 +39,8 @@ This is a runtime component to capture a monitor and get averaged colors. This c
 |bakeTargetPrefab|`BakeTarget`| A prefab for grid cells of monitors.|
 |partitionType|`KanikamaMonitor.PartitionType`| Set the same value to the KanikamaBakeTargetMonitorGroup.|
 |targetCamera|`Camera`| A Camera capturing a monitor to get colors. Its depth should be smaller than the main camera.|
-|readingTexture|`Texture2D`| 256x256 readable Texture2D object with mipmap.|
+|readingTexture|`Texture2D`| Set 256 x 256 readable RGBA 16 SFloat Texture2D object with mipmap.|
 
 ## KanikamaUdonMonitorCamera
 
-This is a Udon version of KanikamaRuntimeMonitorCamera.
+This is a Udon version of KanikamaRuntimeMonitorCamera. It is a bit slower than the C# version because of U#'s rescriction of Unity API.

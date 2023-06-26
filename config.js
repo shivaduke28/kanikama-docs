@@ -11,8 +11,7 @@ module.exports = {
     // If you want to add custom data, add them below.
     frontmatter: {
         title: "KanikamaGI",
-        description:
-            "KanikamaGI is an asset providing lightmaps at runtime in VRChat, powered by UdonSharp.",
+        description: "KanikamaGI is a library to update lightmaps at runtime in Unity based on the Precumputed Radiance Transfer.",
         color: "#363227"
     },
 
