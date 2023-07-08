@@ -55,7 +55,8 @@ module.exports = {
                 [
                     ["Outline", "/components/Outline"],
                     ["Setup monitors", "/components/SetupMonitor"],
-                    ["Setup LTC", "/components/SetupLTC"]
+                    ["Setup LTC", "/components/SetupLTC"],
+                    ["AudioLink", "/components/AudioLink"]
                 ]
             ],
         ],
