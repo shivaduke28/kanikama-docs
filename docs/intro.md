@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Installation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 1. Import Unity Packages
 
-## Getting Started
+To import with UPM, add the following to `Packages/manifest.json`:
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```json
+// main package
+"net.shivaduke28.kanikama": "https://github.com/shivaduke28/kanikama.git?path=Kanikama/Packages/net.shivaduke28.kanikama",
+// for Bakery
+"net.shivaduke28.kanikama.bakery": "https://github.com/shivaduke28/kanikama.git?path=Kanikama/Packages/net.shivaduke28.kanikama.bakery",
+// for VRChat
+"net.shivaduke28.kanikama.udon": "https://github.com/shivaduke28/kanikama.git?path=Kanikama/Packages/net.shivaduke28.kanikama.udon"
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+To use in VRChat, Kanikama also requires [VRChat Creator Companion](https://vcc.docs.vrchat.com/) and [UdonSharp](https://udonsharp.docs.vrchat.com/) v1. To install with VCC, see [https://shivaduke28.github.io/vcc-packages/](https://shivaduke28.github.io/vcc-packages/).
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## 2. Project Settings
 
-Run the development server:
+`Edit > Project Settings > Player > Other Settings > Rendering`
 
-```bash
-cd my-website
-npm run start
-```
+- **Color Space**: should be Linear
+- **Lightmap Encoding**: should be High Quality
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## 3. Lighting Settings
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+`Window > Rendering > Light Settings`
+
+- **Realtime Global Illumination**: should be unchecked
+- **Baked Global Illumination**: should be checked
+
+## 4. Import Sample (optional)
+
+Open the Package Manager window from `Window > Package Manager`, and select the **In Project** category. You can import Samples.
+
+<a href="https://gyazo.com/5c5f1c04a167780abfb61227dbaf96a1"><img src="https://i.gyazo.com/5c5f1c04a167780abfb61227dbaf96a1.jpg" alt="Image from Gyazo" width="749"/></a>
