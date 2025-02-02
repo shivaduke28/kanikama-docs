@@ -28,7 +28,7 @@ A **Kanikama Monitor Group Holder** component is automatically attached by a Kan
 |Property|Function|
 |-|-|
 |Monitors|An array of Kanikama Monitors with the same screen image.|
-|Grid Cell Prefab|Use `Kanikama/Prefabs/UnityGridCell.prefab`.|
+|Grid Cell Prefab|Use `Kanikama/Prefabs/UnityGridCell.prefab` or `Kanikama Bakery/Prefabs/BakeryGridCell.prefab`.|
 |Monitor Grid Fibers|An array of grid fibers. Automatically set by clicking the Setup button.|
 
 Each monitor is devided into grid cells based on the partition type.
