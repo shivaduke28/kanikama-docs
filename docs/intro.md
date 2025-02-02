@@ -8,7 +8,7 @@ sidebar_position: 1
 
 To import with UPM, add the following to `Packages/manifest.json`:
 
-```json
+```json title="Packages/manifest.json"
 // main package
 "net.shivaduke28.kanikama": "https://github.com/shivaduke28/kanikama.git?path=Kanikama/Packages/net.shivaduke28.kanikama",
 // for Bakery
