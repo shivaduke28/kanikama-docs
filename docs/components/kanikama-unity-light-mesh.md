@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Kanikama Unity Light Mesh
 
-Inherits from `KanikamaLightSource`.
+Inherits from [Kanikama Light Source](kanikama-light-source).
 
 Attach a **Kanikama Unity Light Mesh** component to a Renderer with emissive material updated at runtime.
 

@@ -1,10 +1,11 @@
 ---
-sidebar_position: 4
+sidebar_position: 11
 ---
 
 # Kanikama Monitor Group
 
-Inherits from `KanikamaLightSourceGroup`.
+Inherits from [Kanikama Light Source Group](kanikama-light-source-group).
+
 Use `Packages/Kanikama/Prefabs/KanikamaMonitorGroup.prefab`.
 
 A **Kanikama Monitor Group** component is a group monitors with the same screen image.

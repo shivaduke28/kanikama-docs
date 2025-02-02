@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Kanikama Unity Light
 
-Inherits from `KanikamaLightSource`.
+Inherits from [Kanikama Light Source](kanikama-light-source).
 
 Attach a **Kanikama Unity Light** component to a Light with Baked mode updated at runtime.

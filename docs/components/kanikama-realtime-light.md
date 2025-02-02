@@ -1,11 +1,12 @@
 ---
-sidebar_position: 10
+sidebar_position: 100
 ---
 
 # Kanikama Realtime Light
 
 Attaching a **Kanikama Realtime Light** component to a Kanikama Manager,
-you can update a realtime Light based on colors of Kanikama light source colors.
+one can update a realtime Light based on colors of Kanikama light source colors.
+This is useful to update lighting for dynamic objects (e.g. avatar) by a monitor.
 
 |Property|Function|
 |-|-|
