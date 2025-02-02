@@ -13,8 +13,6 @@ To import with UPM, add the following to `Packages/manifest.json`:
 "net.shivaduke28.kanikama": "https://github.com/shivaduke28/kanikama.git?path=Kanikama/Packages/net.shivaduke28.kanikama",
 // for Bakery
 "net.shivaduke28.kanikama.bakery": "https://github.com/shivaduke28/kanikama.git?path=Kanikama/Packages/net.shivaduke28.kanikama.bakery",
-// for VRChat
-"net.shivaduke28.kanikama.udon": "https://github.com/shivaduke28/kanikama.git?path=Kanikama/Packages/net.shivaduke28.kanikama.udon"
 ```
 
 To use in VRChat, Kanikama also requires [VRChat Creator Companion](https://vcc.docs.vrchat.com/) and [UdonSharp](https://udonsharp.docs.vrchat.com/) v1. To install with VCC, see [https://shivaduke28.github.io/vcc-packages/](https://shivaduke28.github.io/vcc-packages/).
