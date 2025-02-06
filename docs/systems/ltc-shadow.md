@@ -38,7 +38,7 @@ Without shadow:
 <a href="https://gyazo.com/d6fb503fae4f0e217f127d569ab656ed"><img src="https://i.gyazo.com/d6fb503fae4f0e217f127d569ab656ed.png" alt="Image from Gyazo" width="600"/></a>
 
 With shadow.
-<a href="https://gyazo.com/4883255a78cae8d4ba98c28ed6bf37b4"><img src="https://i.gyazo.com/4883255a78cae8d4ba98c28ed6bf37b4.png" alt="Image from Gyazo" width="1283"/></a>
+<a href="https://gyazo.com/4883255a78cae8d4ba98c28ed6bf37b4"><img src="https://i.gyazo.com/4883255a78cae8d4ba98c28ed6bf37b4.png" alt="Image from Gyazo" width="600"/></a>
 
 The ratio of two lightmaps.
 <a href="https://gyazo.com/9598ac6157188aa45eba9dd4c7190017"><img src="https://i.gyazo.com/9598ac6157188aa45eba9dd4c7190017.png" alt="Image from Gyazo" width="600"/></a>
