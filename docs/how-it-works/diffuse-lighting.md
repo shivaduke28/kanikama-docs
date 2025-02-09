@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# How It Works
+# Diffuse Lighting
 
-Diffuse lighting in Kanikama is inspired by GhostIllumination by phi16[1] and based on the technique of Precomputed Radiance Transfer [2].
+Diffuse lighting in Kanikama is inspired by GhostIllumination by phi16[^1] and based on the technique of Precomputed Radiance Transfer[^2].
 
 Consider a scene where there are green and red point lights in a room. The colors of the lights are `(1,0,0)` and `(0,1,0)`, respectively, and they have the intensity `2`.
 
@@ -32,8 +32,5 @@ The lightmap with red and green lights turned on can be reproduced by multiplyin
 Note that only the lightmap values are computationally expensive in the right-hand side. If you bake multiple lightmaps in advance, we can dynamically update the lightmap of the scene at runtime by simply changing the colors of the coefficients and summing them up.
 
 
-### References
-
-* [1] phi16,  [無　解説 - Imaginantia](https://phi16.hatenablog.com/entry/2021/05/29/204643)
-* [2] Peter-Pike Sloan, Jan Kautz, and John Snyder. Precomputed Radiance Transfer for RealTime Rendering in Dynamic, Low-Frequency Lighting Environments. ACM Transactions on Graphics, v 21, n 3, 2002, p 527-536.
-
+[^1]: phi16,  [無　解説 - Imaginantia](https://phi16.hatenablog.com/entry/2021/05/29/204643)
+[^2]: Peter-Pike Sloan, Jan Kautz, and John Snyder. Precomputed Radiance Transfer for RealTime Rendering in Dynamic, Low-Frequency Lighting Environments. ACM Transactions on Graphics, v 21, n 3, 2002, p 527-536.

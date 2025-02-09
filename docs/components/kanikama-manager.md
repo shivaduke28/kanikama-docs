@@ -9,7 +9,7 @@ Use `Packages/Kanikama/Prefabs/KanikamaManager.prefab`.
 
 This component requires a Unity's Camera component to control the timing of lighting updates. Because its rendering result will not be used, set 1px RenderTexture to its RenderTarget.
 
-The depth of the Camera need to be less than the depth of the Main Camera, and greater than that of Cameras used by `Kanikama Monitor Group` (may be `-1` in VRChat).
+The depth of the Camera need to be less than the depth of the Main Camera, and greater than that of Cameras used by [Kanikama Monitor Group](kanikama-monitor-group).
 
 |Property|Function|
 |-|-|
